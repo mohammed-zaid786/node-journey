@@ -138,3 +138,4 @@ const originalData = JSON.parse(jsonData);     // JSON string into JavaScript Ob
 
 console.log("Parsed Data:");
 console.log(originalData);
+// Day 2 Mini Project: transactionAnalyzer
