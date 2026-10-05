@@ -60,3 +60,4 @@ console.log(`Email: ${userSummary.email}`);
 console.log(`Age: ${userSummary.age}`);
 console.log(`City: ${userSummary.city}`);
 console.log("------------------------");
+// Day 1 Mini Project: userParser
