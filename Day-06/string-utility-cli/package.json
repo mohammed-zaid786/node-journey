@@ -1,0 +1,17 @@
+{
+  "name": "string-utility-cli",
+  "version": "1.0.0",
+  "description": "A simple string utility CLI",
+  "type": "module",  
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "string",
+    "utility",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC"
+}
