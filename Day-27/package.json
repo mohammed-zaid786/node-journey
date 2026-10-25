@@ -1,0 +1,23 @@
+{
+  "name": "day-27",
+  "version": "1.0.0",
+  "description": "",
+  "main": "setup-db.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
