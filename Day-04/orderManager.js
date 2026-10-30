@@ -16,34 +16,34 @@ function failedTask(name, time) {
 }
 
 
-async function processOrder() {
+// async function processOrder() {
 
-    try {
+//     try {
 
-        console.log(" Order processing started...\n");
+//         console.log(" Order processing started...\n");
 
-        // Run independent tasks together
-        const results = await Promise.all([
-            task("Kitchen", 2000),
-            task("Packing", 1500),
-            task("Payment", 1000)
-        ]);
+//         // Run independent tasks together
+//         const results = await Promise.all([
+//             task("Kitchen", 2000),
+//             task("Packing", 1500),
+//             task("Payment", 1000)
+//         ]);
 
-        console.log(results);
+//         console.log(results);
 
-    } catch (error) {
+//     } catch (error) {
 
-        console.log("Order failed:", error);
+//         console.log("Order failed:", error);
 
-    } finally {
+//     } finally {
 
-        console.log("\nOrder processing finished.");
+//         console.log("\nOrder processing finished.");
 
-    }
-}
+//     }
+// }
 
 
-processOrder();
+// processOrder();
 /* output:- [ 'Kitchen completed', 'Packing completed', 'Payment completed' ] / Order processing finished. */
 
 
@@ -78,20 +78,20 @@ checkOrderTasks();
 
 /* ADD    Promise.race():  */
 // Promise.race()
-async function chooseDeliveryPartner() {
+// async function chooseDeliveryPartner() {
 
-    console.log("\nChoosing fastest delivery partner...\n");
+//     console.log("\nChoosing fastest delivery partner...\n");
 
-    const result = await Promise.race([    //promise.race() returns the first promise that settles
-        task("Delivery Partner A", 3000),
-        task("Delivery Partner B", 1000)
-    ]);
+//     const result = await Promise.race([    //promise.race() returns the first promise that settles
+//         task("Delivery Partner A", 3000),
+//         task("Delivery Partner B", 1000)
+//     ]);
 
-    console.log("Promise.race winner:");
-    console.log(result);
-}
+//     console.log("Promise.race winner:");
+//     console.log(result);
+// }
 
-chooseDeliveryPartner();
+// chooseDeliveryPartner();
 /* op:- 
 Choosing fastest delivery partner...
 

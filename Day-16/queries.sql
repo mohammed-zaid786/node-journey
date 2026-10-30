@@ -1,9 +1,9 @@
 -- Day-16: Core SQL Queries, Filters and Joins
 
 -- 1. Inserting mock data into users and tasks
-INSERT INTO users (username, email) VALUES 
-('yash_verma', 'yash@example.com'),
-('megha_chauhan', 'megha@example.com');
+INSERT INTO users (username, email, password) VALUES 
+('yash_verma', 'yash@example.com', '1234'),
+('megha_chauhan', 'megha@example.com', '1234');
 
 INSERT INTO tasks (title, description, completed, user_id) VALUES 
 ('Practice JavaScript', 'Complete array methods practice', false, 1),
